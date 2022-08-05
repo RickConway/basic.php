@@ -13,13 +13,13 @@ include("header.php");
     <div id="carouselExampleControls" class="carousel dark slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://media.discordapp.net/attachments/622433942766878742/1004930101307265084/unknown.png" class="d-block w-100" alt="..." width="1600" height="900">
+      <img src="https://media.discordapp.net/attachments/499751079907426314/1005047817850585119/unknown.png?width=1191&height=670" class="d-block w-100" alt="..." width="1600" height="900">
     </div>
     <div class="carousel-item">
-      <img src="https://media.discordapp.net/attachments/622433942766878742/1004919129435799582/FB_IMG_1659661747169.jpg" class="d-block w-100" alt="..."width="1600" height="900">
+      <img src="https://media.discordapp.net/attachments/499751079907426314/1005047852046749696/unknown.png?width=1191&height=670" class="d-block w-100" alt="..."width="1600" height="900">
     </div>
     <div class="carousel-item">
-    <a href="https://www.youtube.com/watch?v=nZ20ZPOumMo" target="_blank"><img src="https://media.discordapp.net/attachments/622433942766878742/1004706142984872036/CLICK_.jpg" class="d-block w-100" alt="..." width="1600" height="900">
+    <a href="index.php" ><img src="https://media.discordapp.net/attachments/499751079907426314/1005047896044998676/unknown.png?width=1191&height=670" class="d-block w-100" alt="..." width="1600" height="900">
     </div></a>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
