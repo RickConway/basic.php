@@ -12,6 +12,8 @@
   <?php
   include("header.php");
   ?>
+  <br>
+  <br>
   <main>
     <div class="container">
       <div class="card">
@@ -22,7 +24,7 @@
           <form name="form1" action="insert.php" method="post">
             <div class="row">
               <!--row1-->
-              <div class="col-md-2">
+              <div class="col-md-2 mb-4">
                 <label class="form-label">Firstname</label>
                 <select class="form-select" id="fname" name="fname" aria-label="Default select example">
                   <option value="Mr.">Mr.</option>
@@ -41,36 +43,36 @@
             </div>
             <div class="row">
               <!--row2-->
-              <div class="col-md-3">
+              <div class="col-md-2 mb-4">
                 <label for="sex" class="form-label">Sex</label>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="sex" checked>
-                  <label class="form-check-label" for="flexRadioDefault1">
+                  <input class="form-check-input" type="radio" name="sex" id="sex" value="Male">
+                  <label class="form-check-label" for="">
                     Male
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="sex">
-                  <label class="form-check-label" for="flexRadioDefault2">
+                  <input class="form-check-input" type="radio" name="sex" id="sex" value="Female">
+                  <label class="form-check-label" for="">
                     Female
                   </label>
                 </div>
               </div>
               <div class="col-md-3">
-                <label for="date" class="form-label">Date of Birth</label>
-                <input type="date" class="form-control" id="date" name="date">
+                <label for="birth" class="form-label">Date of Birth</label>
+                <input type="date" class="form-control" id="birth" name="birth">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <label for="ad" class="form-label">Address</label>
                 <input type="text" class="form-control" id="ad" placeholder="Enter your Address" name="ad">
               </div>
               <div class="col-md-3">
                 <label for="PNum" class="form-label">Telephone Number</label>
-                <input type="text" class="form-control" id="PNum" placeholder="Enter your phone number" name="PNum">
+                <input type="number" class="form-control" id="PNum" placeholder="Enter your phone number" name="PNum">
               </div>
               <div class="col-md-4">
                 <label for="Email" class="form-label">Email</label>
-                <input type="text" class="form-control" id="Email" placeholder="Enter your Email" name="Email">
+                <input type="email" class="form-control" id="Email" placeholder="Enter your Email" name="Email">
               </div>
             </div>
             <br>
